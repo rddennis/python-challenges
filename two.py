@@ -1,3 +1,5 @@
+# Challenge two: Find the longest sentence in the word.
+
 userInput = input("Please enter a sentence: ")
 inputList = userInput.split(" ")
 longestWord = " "

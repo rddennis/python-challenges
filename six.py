@@ -1,4 +1,5 @@
-# Write a program that gets an integer from the user. Count from 0 to that number. Use a for loop to do it.
+# Write a program that gets an integer from the user. Count from 0 to that number. 
+# Use a for loop to do it.
 
 
 while True:

@@ -1,3 +1,6 @@
+# Write a program that gets an integer from the user. Print from one to that number in astericks (*). 
+# Use a for loop to do it.
+
 while True:
 	try:
 		userInput = input("Please enter a number: ")

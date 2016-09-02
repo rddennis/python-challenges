@@ -1,7 +1,4 @@
-# Find the lowest common multiple of two numbers
-# You failed!
-# But you did find the greatest common factor
-# Get it, Nesh!
+# Find the greatest common factor of two numbers
 
 numberOne = int(input("Please enter a number: "))
 numberTwo = int(input("Please enter a second number: "))

@@ -1,4 +1,6 @@
-userInput = input("Please enter a word or sentence: ")
+# Challenge three: Write a program that finds duplicate letters in a word or sentence.
+
+userInput = input("Please enter a word or sentence: ").lower()
 repeatedLetters = []
 x = 0
 length = len(userInput)
@@ -11,7 +13,7 @@ while True:
 
 while x < length:
 	if userInput.count(userInput[x]) > 1 and userInput[x] not in repeatedLetters and (userInput[x].isalpha() == True):
-		print("%s appears %s times in \"%s\"" %(userInput[x], userInput.count(userInput[x]), userInput))
+		print("%s appears %s times in \"%s\"." %(userInput[x], userInput.count(userInput[x]), userInput.capitalize()))
 		repeatedLetters.append(userInput[x])	
 	x += 1
 
@@ -21,6 +23,6 @@ while x < length:
 # 		repeatedLetters.append(userInput[x])	
 
 if repeatedLetters == []:
-	print("There were no repeated letters in \"%s\"" %userInput)
+	print("There were no repeated letters in \"%s\"." %userInput.capitalize())
 
 	
